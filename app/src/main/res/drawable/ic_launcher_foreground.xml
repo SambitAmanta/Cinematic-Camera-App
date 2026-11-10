@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Cinema Corner Reticles -->
+    <path
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square"
+        android:pathData="M32,38 L32,32 L38,32" />
+    <path
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square"
+        android:pathData="M76,38 L76,32 L70,32" />
+    <path
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square"
+        android:pathData="M32,70 L32,76 L38,76" />
+    <path
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square"
+        android:pathData="M76,70 L76,76 L70,76" />
+
+    <!-- Cyan Mechanical Aperture Ring -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+
+    <!-- Aperture Blades (Cinematic Vertigo Spiral) -->
+    <path
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,32 L68,44 M76,54 L64,68 M54,76 L40,64 M32,54 L44,40" />
+
+    <!-- Glowing Tally Shutter Core (Recording Dot) -->
+    <path
+        android:fillColor="#FF3B30"
+        android:pathData="M54,54m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+</vector>
+

@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.hprof
+/app/build
+/app/.cxx
+/app/.externalNativeBuild
+
+# Private Documentation & Technical Cheat Sheets
+technical_hurdles.md
+project_analysis.md
+INTERVIEW_TALKING_POINTS.md
+
