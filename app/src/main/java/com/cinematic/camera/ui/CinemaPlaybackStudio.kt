@@ -107,6 +107,11 @@ fun CinemaPlaybackStudio(
         }
     }
 
+    val naturalAspectRatio = if (videoWidth > 0 && videoHeight > 0) {
+        videoWidth.toFloat() / videoHeight.toFloat()
+    } else {
+        16f / 9f
+    }
     val isVerticalVideo = naturalAspectRatio < 1.0f
 
     Box(
