@@ -234,7 +234,8 @@ fun CinematicHUD(
             modifier = Modifier
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
-                .padding(bottom = 20.dp, start = 14.dp, end = 14.dp)
+                .navigationBarsPadding()
+                .padding(bottom = 12.dp, start = 14.dp, end = 14.dp)
         )
 
         // 7. Configurable Zoom Range Dialog
